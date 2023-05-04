@@ -18,7 +18,7 @@ while (isSunk == false){
         guesses = guesses + 1;
         if (guess == location1 || guess == location2 || guess == location3){
             hits = hits + 1;
-            if (hits ==3){
+            if (hits == 3){
                 isSunk = true;
                 alert("You sank my battleship!");
             }else{
@@ -31,3 +31,6 @@ while (isSunk == false){
 let stats = "You took " + guesses + " guesses to sink the Battleship, "
  +"which means your shooting accuracy was " + (3/guesses);
  alert(stats);
+
+// Learning Functions
+
